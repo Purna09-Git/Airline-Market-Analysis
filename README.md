@@ -1,18 +1,17 @@
 # Airline Market Trends Analysis 
 
 
-### Project Overview
-An interactive Tableau dashboard exploring the dynamics of the airline industry. This project visualizes over 30 years of data to identify trends in passenger volume, fare pricing strategies, and carrier market share.
+###  Project Overview
+This project provides a deep-dive analysis into the U.S. domestic aviation market over three decades. By leveraging the **Consumer Airfare Report (Table 1a)**, the dashboard visualizes the complex relationships between flight distances, ticket pricing strategies, and the competitive dominance of major vs. low-cost carriers.
 
-### Key Visualizations & Insights
-1. **Geospatial Mapping:** Distribution of airline dominance across US airports.
-2. **Fare Dynamics:** A scatter plot analysis showing the relationship between route distance (Nsmiles) and lowest fares.
-3. **Historical Trends:** A line chart highlighting the steady growth of travel, the 2020 pandemic impact, and the subsequent rebound.
-4. **Carrier Volume:** Comparison of passenger counts across specific airport pairs.
+### Key Analytical Insights
+* **Geospatial Dominance:** A Mapbox-integrated visualization showing carrier market share across major U.S. hubs, represented by proportional pie-chart markers.
+* **Pricing vs. Distance Correlation:** A scatter plot analysis of `Lowest Fare` vs. `Distance (Nsmiles)`, identifying how origin cities and market competition impact low-cost carrier entry.
+* **Historical Resilience:** A time-series analysis of passenger volume from 1993 to 2024, highlighting the significant "V-shaped" recovery following the 2020 global pandemic dip.
+* **Operational Scale:** Comparative analysis of passenger volume and route distance filtered by the largest carriers in the market.
 
-### Data Source
-It includes variables such as city pairs, distances, passenger counts, and average fares.
-
-### How to use
-- Open the `.twbx` file in Tableau Desktop or Tableau Public.
-- Use the filters on the right to drill down by Origin City, Airport, or Year.
+### Technical Toolkit
+* **Data Visualization:** Tableau Desktop / Tableau Public
+* **Mapping:** Mapbox API / OpenStreetMap
+* **Data Source:** U.S. Department of Transportation (DOT) - Consumer Airfare Report: Table 1a
+* **Key Metrics Analyzed:** `nsmiles`, `passengers`, `fare`, `carrier_lg` (leading carrier), and `large_ms` (market share).
