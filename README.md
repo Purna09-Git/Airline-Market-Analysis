@@ -4,6 +4,8 @@
 ###  Project Overview
 This project provides a deep-dive analysis into the U.S. domestic aviation market over three decades. By leveraging the **Consumer Airfare Report (Table 1a)**, the dashboard visualizes the complex relationships between flight distances, ticket pricing strategies, and the competitive dominance of major vs. low-cost carriers.
 
+<img width="1198" height="792" alt="image" src="https://github.com/user-attachments/assets/18d516c7-645b-4b13-a8d6-359e9153caf3" />
+
 ### Key Analytical Insights
 * **Geospatial Dominance:** A Mapbox-integrated visualization showing carrier market share across major U.S. hubs, represented by proportional pie-chart markers.
 * **Pricing vs. Distance Correlation:** A scatter plot analysis of `Lowest Fare` vs. `Distance (Nsmiles)`, identifying how origin cities and market competition impact low-cost carrier entry.
