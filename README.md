@@ -12,6 +12,5 @@ This project provides a deep-dive analysis into the U.S. domestic aviation marke
 
 ### Technical Toolkit
 * **Data Visualization:** Tableau Desktop / Tableau Public
-* **Mapping:** Mapbox API / OpenStreetMap
 * **Data Source:** U.S. Department of Transportation (DOT) - Consumer Airfare Report: Table 1a
 * **Key Metrics Analyzed:** `nsmiles`, `passengers`, `fare`, `carrier_lg` (leading carrier), and `large_ms` (market share).
